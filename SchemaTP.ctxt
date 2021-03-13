@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SchemaTP
+comment0.text=\r\n\ La\ classe\ Schema\ impl\u00E9mente\ un\ sch\u00E9ma\ \u00E0\ simuler.\r\n\ De\ l'ext\u00E9rieur,\ le\ sch\u00E9ma\ est\ inconnu\ \:\ on\ sait\ seulement\ qu'il\ a\ des\ entr\u00E9es\r\n\ (ici\ 2\ dans\ un\ premier\ temps)\ et\ des\ sorties\ (ici\ \:\ 1).\ Ce\ qui\ int\u00E9resse\ \r\n\ l'utilisateur\ de\ ce\ sch\u00E9ma,\ c'est\ de\ \:\r\n\ \ \ \ \ \ -\ pouvoir\ appliquer\ des\ stimuli\ sur\ les\ entr\u00E9es\r\n\ \ \ \ \ \ -\ faire\ un\ pas\ de\ propagation\r\n\ \ \ \ \ \ -\ observer\ le\ r\u00E9sultat\ en\ sortie\r\n\ \r\n\ A\ l'int\u00E9rieur,\ le\ sch\u00E9ma\ g\u00E8re\ les\ diff\u00E9rents\ constituants\ d'un\ sch\u00E9ma.\ En\ les\ \r\n\ instanciant,\ il\ \u00E9tablit\ les\ relations\ entre\ eux.\ Cette\ version\ op\u00E8re\ avec\r\n\ des\ acc\u00E8s\ indff\u00E9renci\u00E9s\ (pas\ d'utilisation\ des\ classes\ Entr\u00E9e\ et\ Sortie.\ Cette\r\n\ version\ permet\ la\ r\u00E9alisation\ d'un\ sch\u00E9ma\ \u00E0\ 2\ entr\u00E9es\ et\ 1\ sortie.\r\n\ \r\n\ @author\ R.\ Gourdon,\ IUT\ de\ Nantes\r\n\ @version\ Septembre\ 2010\r\n
+comment1.params=
+comment1.target=SchemaTP()
+comment1.text=\r\n\ Constructeur\ \:\ il\ cr\u00E9\u00E9e\ le\ sch\u00E9ma,\ c'est\ \u00E0\ dire\ les\ \u00E9lements\ reli\u00E9s\ entre\ eux\r\n
+comment2.params=val1\ val2
+comment2.target=void\ setStimuli(int,\ int)
+comment2.text=\r\n\ Affecte\ une\ valeur\ sur\ chacune\ des\ entr\u00E9es\ du\ sch\u00E9ma\ -\ Version\ \u00E0\ 2\ entr\u00E9es\r\n\ \r\n\ @param\ (int)\ la\ valeur\ du\ stimulus\ appliqu\u00E9\ sur\ la\ 1\u00E8re\ entr\u00E9e\r\n\ @param\ (int)\ la\ valeur\ du\ stimulus\ appliqu\u00E9\ sur\ la\ 2\u00E8me\ entr\u00E9e\r\n
+comment3.params=
+comment3.target=java.lang.String\ getEntreeString()
+comment3.text=\r\n\ permet\ de\ r\u00E9cup\u00E9rer\ (sous\ forme\ texte)\ les\ valeurs\ pr\u00E9sentes\ en\ entr\u00E9e\ \r\n\ \r\n\ @return\ (String)\ les\ valeurs\ pr\u00E9sentes\ en\ entr\u00E9e\ \r\n
+comment4.params=
+comment4.target=int\ getSortie()
+comment4.text=\r\n\ permet\ de\ r\u00E9cup\u00E9rer\ la\ valeur\ pr\u00E9sente\ en\ sortie\ du\ sch\u00E9ma\ -\ Version\ \u00E0\ 1\ entr\u00E9e\r\n\ \r\n\ @return\ (int)\ la\ valeur\ pr\u00E9sente\ en\ sortie\r\n
+comment5.params=
+comment5.target=java.lang.String\ getSortieString()
+comment5.text=\r\n\ permet\ de\ r\u00E9cup\u00E9rer\ (sous\ forme\ texte)\ la\ valeur\ pr\u00E9sente\ en\ sortie\ \r\n\ \r\n\ @return\ (String)\ la\ valeur\ pr\u00E9sente\ en\ sortie\r\n
+comment6.params=
+comment6.target=void\ calculeUnPas()
+comment6.text=\r\n\ permet\ de\ r\u00E9aliser\ un\ pas\ de\ simulation\ dans\ le\ sch\u00E9ma\r\n\ \r\n\ @return\ (aucun)\r\n
+numComments=7

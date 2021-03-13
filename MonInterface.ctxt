@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MonInterface
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ D\u00E9marrage\ de\ l'application\r\n
+comment2.params=e
+comment2.target=void\ handle(javafx.event.ActionEvent)
+comment2.text=\r\n\ Traitement\ des\ actions\ (h\u00E9rit\u00E9\ de\ l'interface\ EventHandler<ActionEvent>)\r\n
+comment3.params=
+comment3.target=void\ stop()
+comment3.text=\r\n\ Arret\ de\ l'application\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
